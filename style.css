@@ -14,6 +14,11 @@ body {
   font-size: 1.6rem;
   font-family: "Rubik", sans-serif;
 }
+html, body {
+  overflow: auto;
+  height: 100%;
+  min-height: 100vh;
+}
 .container {
   margin: auto;
   color: #333;
